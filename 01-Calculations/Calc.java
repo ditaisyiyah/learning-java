@@ -1,7 +1,7 @@
 package Dita.Calc;
 
 /*
- * Practice JF 4.3
+ * Basic knowledge of numbers
  */
 
 public class Calculate {
