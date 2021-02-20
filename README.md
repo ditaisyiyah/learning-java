@@ -1,4 +1,4 @@
-# learning-javascript
+# learning-java
 All my codes during learning Java on Oracle Academy that taught by third-party instructors
 
 What you will see on this repsitory:
