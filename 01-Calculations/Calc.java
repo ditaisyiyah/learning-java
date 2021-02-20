@@ -1,8 +1,11 @@
 package Dita.Calc;
+
 /*
  * Practice JF 4.3
  */
+
 public class Calculate {
+	
 	private double base, height;
 	private final double constant = .5;
 	
@@ -17,6 +20,7 @@ public class Calculate {
 	}
 	
 	public static void main (String [] args) {
+		
 		Calculate a1 = new Calculate (6, 7);
 		System.out.println(a1.calcArea());
 		
