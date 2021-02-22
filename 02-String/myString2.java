@@ -5,23 +5,22 @@ package Dita.Lett;
 public class myString2 {
 	String s1 = "abc";
 	
-	public myString (String val) {this.s1 = val;}
-	
-	public myString () {}
+	public myString2 () {}
+	public myString2 (String val) {this.s1 = val;}
 	
 	public void setString () {}
 	public String getString () {return s1;}
 	
 	public static void main(String []args) {
 		//1ST WAY
-		String myString = "abc";						
-		System.out.println(myString);
+		myString2 str3 = new myString2 ();			
+		System.out.println(str3.getString());
 		//2ND WAY
-		myString myString2 = new myString ("abc");		
-		System.out.println(myString2.getString());
+		myString2 str2 = new myString2 ("abc");		
+		System.out.println(str2.getString());
 		//3RD WAY
-		myString myString3 = new myString ();			
-		System.out.println(myString3.getString());
+		String str = "abc";						
+		System.out.println(str);
 	}
 	
 }
