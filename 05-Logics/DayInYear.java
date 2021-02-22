@@ -32,10 +32,10 @@ public class DayInYear {
 		int sum = tiga1*7 + tiga0*4 + feb;
 		
 		int awal = 0;
-		if (inY >= 2021) {						//2024
+		if (inY >= 2021) {					//2024
 			awal = 3;
 			int q;	int y; 								
-			int s = inY - 2021;					//3
+			int s = inY - 2021;				//3
 			for (q=1; q<s+1; q++) {				//q<4
 				--awal;
 				y = 2021 + q;
@@ -50,10 +50,10 @@ public class DayInYear {
 			}
 		}
 		
-		if (inY < 2021) {						//2016
+		if (inY < 2021) {					//2016
 			awal = 3;
 			int q;	int y; 								
-			int s = inY - 2021;					//-5
+			int s = inY - 2021;				//-5
 			for (q=-1; q>s-1; q--) {			//q>-6
 				++awal;
 				y = 2021 + q;
@@ -80,11 +80,9 @@ public class DayInYear {
 		if ((thisYear)%7 != 0) {			//maka ada sisanya (ada r)
 			mw = (int) (thisYear)/7;		
 			lw = (thisYear)-(mw*7);		
-			tw = (mw + 2);					//1 represents the first week
+			tw = (mw + 2);				//1 represents the first week
 			System.out.println("\nTotal Weeks in 2021 : " + tw + " weeks.");
-			System.out.println("first week(" + fw + " days) + " + 
-								mw + " weeks(7 days) + " + 
-								"last week(" + lw + " days).");
+			System.out.println("first week(" + fw + " days) + " + mw + " weeks(7 days) + " + "last week(" + lw + " days).");
 		}else
 			System.out.println("Your number is out of bound of this calender system!");
 		
@@ -132,7 +130,6 @@ public class DayInYear {
 					}
 				}
 			}
-		
 		
 		}//END of (print each days of week)
 	}//END of MAIN
