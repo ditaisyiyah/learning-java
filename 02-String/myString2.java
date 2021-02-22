@@ -1,22 +1,16 @@
 package Dita.Lett;
-
 /*
  * Three ways to print
  */
- 
 public class myString2 {
-	
 	String s1 = "abc";
 	
-	public myString (String val) {
-		this.s1 = val;
-	}
+	public myString (String val) {this.s1 = val;}
+	
 	public myString () {}
 	
 	public void setString () {}
-	public String getString () {
-		return s1;
-	}
+	public String getString () {return s1;}
 	
 	public static void main(String []args) {
 		//1ST WAY
