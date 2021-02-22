@@ -1,19 +1,15 @@
 package Dita.Calc;
 
 import java.util.Scanner;
-
 /*
  * Case: conversion x-gallon to litter and otherwise
  * Fact: 1 gallon equals to 3.785 litter
  */
-
 public class unit {
-
 	private static final double GallonToLiter = 3.785;
 	private static final int coba = 3;
 	
 	public static void main (String [] args) {
-		
 		System.out.print("Input any number to convert Gallon to Liter: ");
 		Scanner scG = new Scanner (System.in);
 		
