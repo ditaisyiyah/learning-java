@@ -1,11 +1,8 @@
 package Dita.Calc;
-
 /*
  * Basic knowledge of numbers
  */
-
 public class Calculate {
-	
 	private double base, height;
 	private final double constant = .5;
 	
@@ -20,7 +17,6 @@ public class Calculate {
 	}
 	
 	public static void main (String [] args) {
-		
 		Calculate a1 = new Calculate (6, 7);
 		System.out.println(a1.calcArea());
 		
@@ -33,7 +29,6 @@ public class Calculate {
 		double d3 = (double) 8/2;	System.out.println(d3);
 		double d4 = (double) 1/8;	System.out.println(d4);			//0.125 (more accurate)
 											//use casting, explicitly convert! 
-		
 	//	int i1 = 7.0/3.5;		System.out.println(i1);			//can't convert from large to be small size
 	//	int i2 = (int) 7.0/3.5;		System.out.println(i2);			//even you use explicitly convert with casting syntax
 		
@@ -48,7 +43,6 @@ public class Calculate {
 	//	char c4 = (char) "a";		System.out.println(c4);			//even in the form of single character
 											//because String is non-primitive type
 											//can't convert crossing type
-		
 	}
 	
 }
