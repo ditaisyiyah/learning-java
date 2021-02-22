@@ -2,7 +2,7 @@ package Dita.Calc;
 /*
  * Using built in method for calculation
  */
-public class Calc2 {
+public class Calculate2 {
 	private double X = 1, Y = 1, Z = 1;
 
 	public Calculate2 (double valX, double valY, double valZ) {
