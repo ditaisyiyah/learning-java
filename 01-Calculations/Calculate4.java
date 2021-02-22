@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Case: conversion x-gallon to litter and otherwise
  * Fact: 1 gallon equals to 3.785 litter
  */
-public class unit {
+public class Calculate4 {
 	private static final double GallonToLiter = 3.785;
 	private static final int coba = 3;
 	
