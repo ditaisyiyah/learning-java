@@ -2,7 +2,6 @@ package Dita.Peop;
 /*
  * this class will define a person and the information about person
  */
-// 
 public class Person {
 	//declare a variable for the person's name and age
 	String Name = "null";
