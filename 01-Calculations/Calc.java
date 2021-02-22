@@ -2,7 +2,7 @@ package Dita.Calc;
 /*
  * Basic knowledge of numbers
  */
-public class Calculate {
+public class Calc {
 	private double base, height;
 	private final double constant = .5;
 	
