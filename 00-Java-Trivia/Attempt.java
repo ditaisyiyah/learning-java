@@ -17,11 +17,11 @@ public class Attempt {
 	
 	public static void main(String []args) {
 		//1ST WAY
-		Attempt str1 = new myString ();			
+		Attempt str1 = new Attempt ();			
 		System.out.println(str1.getString());
 		
 		//2ND WAY
-		Attempt str2 = new myString ("abc");		
+		Attempt str2 = new Attempt ("abc");		
 		System.out.println(str2.getString());
 		
 		//3RD WAY
