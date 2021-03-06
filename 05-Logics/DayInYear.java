@@ -102,7 +102,7 @@ public class DayInYear {
 			}
 			else if (j == 1) {
 				int k;
-				for (k = fw; k<8; k++) {
+				for (k = 8-fw; k<8; k++) {
 						switch (k) {
 							case 1: System.out.println(d1);	break;
 							case 2: System.out.println(d2);	break;
@@ -117,7 +117,7 @@ public class DayInYear {
 			}
 			else if (j == tw) {
 				int l;
-				for (l=lw; l>0; l--) {
+				for (l=1; l<lw+1; l++) {
 					switch (l) {
 						case 1: System.out.println(d1);	break;
 						case 2: System.out.println(d2);	break;
