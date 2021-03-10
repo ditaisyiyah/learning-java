@@ -13,7 +13,6 @@ public class Product {
 // Constructors: to create any object of product class
 // Default constructor
 public Product() {}
-/*
 // Constructor that passes any argument, be assigned into instance field
 public Product(int number,String name,int qty, double price, boolean status){
 	this.pNumber = number;
@@ -22,7 +21,6 @@ public Product(int number,String name,int qty, double price, boolean status){
 	this.pPrice = price;
 	this.pStatus = status;
 }
-*/
 
 // Method to add the number of unit in stock
 public void addToInventory(int qty) {
@@ -41,13 +39,12 @@ public void discontinueInventory(boolean dis) {
 
 // Object that created by default constructor needs these methods
 // Setter/mutator: to set any value when an object is created
-public void setNumber () {}
-public void setName () {}
-public void setQty () {}
-public void setPrice () {}
-public void setValue() {}
-public void setStatus() {}
-// Getter/accessor: to get/return any value (that has been assigned into instance field) when an object is created
+public void setNumber(int pNumber) {this.pNumber = pNumber;}
+public void setName(String pName) {this.pName = pName;}
+public void setQty(int pQty) {this.pQty = pQty;}
+public void setPrice(double pPrice) {this.pPrice = pPrice;}
+public void setStatus(boolean pStatus) {this.pStatus = pStatus;}
+// Getter/accessor: to get/return any value (that has been assigned into instance field)
 public int getNumber() {return pNumber;}
 public String getName() {return pName;}
 public int getQty() {return pQty;}
