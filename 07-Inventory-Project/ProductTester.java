@@ -6,6 +6,20 @@ import java.util.Scanner;
 public class ProductTester {
 	
 	public static void main (String [] args) {
+		// Intantiate with default constructor
+		Product p1 = new Product();
+		p1.pNumber = 1;
+		p1.setName("Clothes");
+		p1.setQty(12);
+		p1.pPrice = 98;
+		System.out.println(p1);
+		// Instatiate with constructor that pass in arguments
+		Product p2 = new Product(2, "Culottes", 12, 173, true);
+		System.out.println(p2);
+		p2.setStatus(false);
+		System.out.println(p2);
+		
+// Inventory system
 		Scanner in = new Scanner (System.in);
 		int maxSize, menuChoice;
 		
@@ -20,7 +34,6 @@ public class ProductTester {
 				menuChoice = getMenuOption(in);
 				executeMenuChoice(menuChoice, products, in);
 			}while(menuChoice!=0);
-			//
 		}
 	}
 	
@@ -33,7 +46,6 @@ public class ProductTester {
 		case 4 : discontinueInventory(products, in);	break;
 		default : System.out.println("\n..The program has been stoped!");	// case 0
 		}
-		
 	}
 	
 	// Discontinuing each identified product
